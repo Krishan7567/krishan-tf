@@ -1,4 +1,4 @@
 module "vpc" {
-  source    = "git::https://github.com/Krishan7567/krishan-tf.git"
+  source    = "../terraform-module-vpc/vpc"
   VPC_CIDR  =  var.VPC_CIDR
 }
